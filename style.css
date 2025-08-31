@@ -1,0 +1,71 @@
+*{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+}
+header{ 
+       
+       height: 100vh;
+       background: url(jungle.png);
+       background-position:middle;
+       background-size: cover;
+       background-repeat:no-repeat;
+       background-attachment: fixed;
+       height: 100vh;
+       margin:0;
+}
+nav{
+    
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    
+} 
+.logo{ 
+    font-size: 70px;
+font-weight: bold
+letter-spacing: 300px; 
+background-color:beige;
+
+}
+.menu a{
+    text-decoration:none;
+    font-size: 50px;
+    color: rgb(35, 36, 36);
+    background-color: rgb(154, 225, 198);
+    padding-bottom: 20px  30px;
+    margin: 5px;
+    border-radius: 40px 35px 40px 35px;
+}
+.container{
+justify-content: bottom;
+align items: bottom;
+position: relative; top: 160px; left:430px; 
+}
+.right,.left{
+    flex-basis: 50%;
+    
+}
+.left h1{ 
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: rgb(134, 180, 93);
+    
+}
+.left {
+    max-width: 450px;
+    margin-left: 70px;
+}
+.left p{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(120, 81, 29); 
+    background-color:beige ;
+}
+button{
+    background: color #b7d314;
+    padding:10px;
+    color: rgb(16, 165, 128);
+    outline:none;
+    border-style: dashed;
+ }
+
